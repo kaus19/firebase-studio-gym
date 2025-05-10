@@ -52,7 +52,7 @@ export default function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center space-x-2" onClick={() => setMobileNavOpen(false)}>
           <Dumbbell className="h-7 w-7 text-primary" />
-          <span className="font-bold text-xl text-primary tracking-tight">FitFriend</span>
+          <span className="font-bold text-xl text-primary tracking-tight">FitTomodachi</span>
         </Link>
         
         {isMobile ? (

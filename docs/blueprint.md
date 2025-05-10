@@ -1,4 +1,4 @@
-# **App Name**: FitFriend
+# **App Name**: FitTomodachi
 
 ## Core Features:
 

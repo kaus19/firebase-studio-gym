@@ -10,7 +10,7 @@ export default function LogAttendancePage() {
         <h1 className="text-3xl font-bold tracking-tight">Log Gym Session</h1>
       </div>
       <p className="text-muted-foreground">
-        Record your gym attendance quickly and easily. Select your name, pick the date, and hit save!
+        Record your gym attendance. Select your name, pick the date, and hit Log Attendance!
       </p>
       <Card className="w-full max-w-lg mx-auto shadow-lg">
         <CardHeader>
