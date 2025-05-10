@@ -43,14 +43,14 @@ export const addAttendance = (entryData: { member: string; date: Date }): Attend
   };
 
   // Prevent duplicate entries for the same member on the same day
-  const_exists = currentAttendance.find(
+  const exists = currentAttendance.find(
     (e) => e.member === newEntry.member && e.date === newEntry.date
   );
-  if (const_exists) {
+  if (exists) {
     // Or, update existing? For now, prevent duplicate.
     console.warn("Attendance already logged for this member on this date.");
     // throw new Error("Attendance already logged for this member on this date."); // Or use toast
-    return const_exists; // return existing entry
+    return exists; // return existing entry
   }
   
   const updatedAttendance = [...currentAttendance, newEntry];
