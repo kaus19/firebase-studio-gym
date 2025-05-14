@@ -1,7 +1,7 @@
 import type { AttendanceEntry } from '@/types';
 
 const ATTENDANCE_KEY = 'fitfriend_attendance_log_v1'; // Added versioning to key
-export const INITIAL_MEMBERS: string[] = ["Alex P.", "Jamie L.", "Casey B.", "Jordan M.", "MySelf"];
+export const INITIAL_MEMBERS: string[] = ["AVS", "Abhinav", "Deshmukh", "Kaustubh", "Manas", "Subrata"];
 
 export const getMembers = (): string[] => {
   // For this version, members are fixed. Could be extended to allow dynamic members.
